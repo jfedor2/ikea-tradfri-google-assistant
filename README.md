@@ -12,4 +12,4 @@ file that's used to configure the app on Google's side using the
 `gactions` command-line tool.
 
 For step-by-step instructions on how to get it to work, see [this
-blog post](http://blog.jfedor.org/).
+blog post](http://blog.jfedor.org/2017/09/google-assistant-support-for-ikea.html).
