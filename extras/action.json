@@ -1,0 +1,15 @@
+{
+  "actions": [{
+    "name": "actions.devices",
+    "fulfillment": {
+      "conversationName": "automation"
+    }
+  }],
+  "conversations": {
+    "automation" :
+    {
+      "name": "automation",
+      "url": "https://home.example.com/google/"
+    }
+  }
+}
