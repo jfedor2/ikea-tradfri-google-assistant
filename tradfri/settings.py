@@ -125,7 +125,9 @@ LOGIN_URL = 'login'
 
 COAP_CLIENT = '/path/to/coap-client'
 
-IKEA_SECRET = '...'
+IKEA_IDENTITY = '...'
+
+IKEA_PRE_SHARED_KEY = '...'
 
 GATEWAY_ADDRESS = 'x.x.x.x'
 

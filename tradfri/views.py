@@ -16,9 +16,9 @@ COAP_CLIENT_PUT = [
     '-m',
     'put',
     '-u',
-    'Client_identity',
+    settings.IKEA_IDENTITY,
     '-k',
-    settings.IKEA_SECRET,
+    settings.IKEA_PRE_SHARED_KEY,
     '-e',
     '{{ "3311": [{{ "{command}": {state} }}] }}',
     'coaps://' + settings.GATEWAY_ADDRESS + ':5684/15001/{id_}',
@@ -29,9 +29,9 @@ COAP_CLIENT_GET = [
     '-m',
     'get',
     '-u',
-    'Client_identity',
+    settings.IKEA_IDENTITY,
     '-k',
-    settings.IKEA_SECRET,
+    settings.IKEA_PRE_SHARED_KEY,
     'coaps://' + settings.GATEWAY_ADDRESS + ':5684/{path}',
 ]
 
